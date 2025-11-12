@@ -1,0 +1,31 @@
+# ValueResult
+
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**value** | **str** | Value of the field. | [optional] 
+**count** | **int** | Number of entities with this value. | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.value_result import ValueResult
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ValueResult from a JSON string
+value_result_instance = ValueResult.from_json(json)
+# print the JSON string representation of the object
+print(ValueResult.to_json())
+
+# convert the object into a dict
+value_result_dict = value_result_instance.to_dict()
+# create an instance of ValueResult from a dict
+value_result_from_dict = ValueResult.from_dict(value_result_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

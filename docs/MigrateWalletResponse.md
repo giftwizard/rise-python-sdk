@@ -1,0 +1,31 @@
+# MigrateWalletResponse
+
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**wallet** | **object** | wallet | [optional] 
+**gift_card** | **object** | giftCard | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.migrate_wallet_response import MigrateWalletResponse
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of MigrateWalletResponse from a JSON string
+migrate_wallet_response_instance = MigrateWalletResponse.from_json(json)
+# print the JSON string representation of the object
+print(MigrateWalletResponse.to_json())
+
+# convert the object into a dict
+migrate_wallet_response_dict = migrate_wallet_response_instance.to_dict()
+# create an instance of MigrateWalletResponse from a dict
+migrate_wallet_response_from_dict = MigrateWalletResponse.from_dict(migrate_wallet_response_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
