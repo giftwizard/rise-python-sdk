@@ -1,0 +1,13 @@
+# Target
+
+
+
+## Enum
+
+* `SCHEDULE` (value: `'SCHEDULE'`)
+
+* `IMMEDIATE` (value: `'IMMEDIATE'`)
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

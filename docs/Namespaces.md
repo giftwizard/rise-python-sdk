@@ -1,0 +1,31 @@
+# Namespaces
+
+Extended field data. Each key corresponds to the namespace of the app that created the extended fields. The value of each key is structured according to the schema defined when the extended fields were configured.  You can only access fields for which you have the appropriate permissions.  Learn more about [extended fields](https://dev.wix.com/docs/rest/articles/getting-started/extended-fields).
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**key** | **str** |  | [optional] 
+**value** | **object** |  | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.namespaces import Namespaces
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of Namespaces from a JSON string
+namespaces_instance = Namespaces.from_json(json)
+# print the JSON string representation of the object
+print(Namespaces.to_json())
+
+# convert the object into a dict
+namespaces_dict = namespaces_instance.to_dict()
+# create an instance of Namespaces from a dict
+namespaces_from_dict = Namespaces.from_dict(namespaces_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
